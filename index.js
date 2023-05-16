@@ -9,7 +9,7 @@ const app = express();
 
 dotenv.config();
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 10000;
 const MONGO_URL = process.env.MONGO_URL; // Retrieve the MongoDB connection URL from the environment variables
 
 app.use(express.json());
